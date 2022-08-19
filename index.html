@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Polar-Rectangular</title>
+</head>
+
+<body>
+
+    <div class="block">
+        <h1>Polar to Rectangular Converter</h1>
+
+        <h2>r∠Θ to x + jy </h2>
+
+        <label for="r">r : </label>
+        <input type="text" name="r" id="r">
+        <br>
+        <br>
+        <label for="theta">Θ : </label>
+        <input type="text" name="theta" id="theta">
+        <br>
+        <br>
+        <button onclick="polToRec()">Calculate</button>
+        <br>
+        <br>
+        <div class="ans ans1">Result = </div>
+    </div>
+    <br>
+    <div class="block">
+        <h1>Rectangular to Polar Converter</h1>
+
+        <h2>x + jy to r∠Θ</h2>
+
+        <label for="x">x : </label>
+        <input type="text" name="x" value=0 id="x">
+        <br>
+        <br>
+        <label for="y">y : </label>
+        <input type="text" name="y" value=0 id="y">
+        <br>
+        <br>
+        <button onclick="recToPol()">Calculate</button>
+        <br>
+        <br>
+        <div class="ans ans2">Result = </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

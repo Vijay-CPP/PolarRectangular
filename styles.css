@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ans{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width:fit-content;
+    padding: 8px;
+    font-size: 1.3rem;
+}
+
+.block{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 1%;
+}
+
+button{
+    font-size: 1.4rem;
+}
+
+input , label{
+    font-size: 1.3rem;
+}
